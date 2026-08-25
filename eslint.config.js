@@ -25,7 +25,6 @@ module.exports = [
     },
     rules: {
       'indent': ['error', 2],
-      'linebreak-style': ['error', 'unix'],
       'quotes': ['error', 'single'],
       'semi': ['error', 'never'],
       'eqeqeq': 'error',
@@ -63,7 +62,6 @@ module.exports = [
     rules: {
       ...react.configs.recommended.rules,
       'indent': ['error', 2],
-      'linebreak-style': ['error', 'unix'],
       'quotes': ['error', 'single'],
       'semi': ['error', 'never'],
       'eqeqeq': 'error',
